@@ -63,22 +63,22 @@ CREATE TABLE IF NOT EXISTS SpotifyClone.reproducoes (
 INSERT INTO SpotifyClone.planos (plano_nome, plano_valor)
 VALUES
   ('gratuito', 0.00),
-  ('familiar', 7.99),
   ('universitário', 5.99),
-  ('pessoal', 6.99);
+  ('pessoal', 6.99),
+  ('familiar', 7.99);
 
 INSERT INTO SpotifyClone.usuarios (usuario_nome, usuario_idade, plano_id, usuario_data_assinatura)
 VALUES
 	('Thati', 23, 1, '2019-10-20 '),
-    ('Cintia', 35, 2, '2017-12-30'),
-    ('Bill', 20, 3, '2019-06-05'),
-    ('Roger', 45, 4, '2020-05-13'),
-    ('Norman', 58, 4, '2017-02-17'),
-    ('Patrick', 33, 2, '2017-01-06'),
-    ('Vivian', 26, 3, '2018-01-05'),
-    ('Carol', 19, 3, '2018-02-14'),
-    ('Angelina', 42, 2, '2018-04-29'),
-    ('Paul', 46, 2, '2017-01-17');
+    ('Cintia', 35, 4, '2017-12-30'),
+    ('Bill', 20, 2, '2019-06-05'),
+    ('Roger', 45, 3, '2020-05-13'),
+    ('Norman', 58, 3, '2017-02-17'),
+    ('Patrick', 33, 4, '2017-01-06'),
+    ('Vivian', 26, 2, '2018-01-05'),
+    ('Carol', 19, 2, '2018-02-14'),
+    ('Angelina', 42, 4, '2018-04-29'),
+    ('Paul', 46, 4, '2017-01-17');
 
 INSERT INTO SpotifyClone.artistas (artista_nome)
 VALUES
@@ -118,7 +118,7 @@ VALUES
 	('Rock His Everything', 223, 4),
 	('Home Forever', 231, 4),
 	('Diamond Power', 241, 4),
-	('Lets Be Silly', 132, 4),
+	("Let's Be Silly", 132, 4),
 	('Thang Of Thunder', 240, 5),
 	('Words Of Her Life', 185, 5),
 	('Without My Streets', 176, 5),
@@ -130,7 +130,7 @@ VALUES
 	('Finding My Traditions', 179, 7),
 	('Walking And Man', 229, 7),
 	('Hard And Time', 135, 7),
-	('Honey, Im A Lone Wolf', 150, 7),
+	("Honey, I'm A Lone Wolf", 150, 7),
 	('She Thinks I Wont Stay Tonight', 166, 8),
 	('He Heard Youre Bad For Me', 154, 8),
 	('He Hopes We Cant Stay', 210, 8),
